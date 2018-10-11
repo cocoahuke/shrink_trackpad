@@ -8,7 +8,7 @@ Is this a joke XD ?
 <img src="joke.jpg" height=150/>
 
 # How to use
-1. Download app from release
+1. Download app from [release](https://github.com/cocoahuke/shrink_trackpad/releases)
 
 2. Move App to Application folder
 
