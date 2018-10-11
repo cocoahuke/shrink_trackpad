@@ -1,10 +1,19 @@
-//
-//  main.m
-//  app_shrinkTrackpad
-//
-//  Created by aa on 10/6/18.
-//  Copyright © 2018 aa. All rights reserved.
-//
+/*
+ * This file is part of the https://github.com/cocoahuke/shrink_trackpad distribution
+ * Copyright (c) 2018 cocoahuke.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
 
 #import <Cocoa/Cocoa.h>
 #include <sys/ioctl.h>

@@ -1,11 +1,3 @@
-//
-//  MultitouchSupport.h
-//  multitouch_priFramework
-//
-//  Created by aa on 10/5/18.
-//  Copyright © 2018 aa. All rights reserved.
-//
-
 #ifndef MultitouchSupport_h
 #define MultitouchSupport_h
 
