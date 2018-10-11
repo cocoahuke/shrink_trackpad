@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0005A36121697ADD0020F4EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005A36021697ADD0020F4EC /* AppDelegate.m */; };
+		0005A36421697ADD0020F4EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005A36321697ADD0020F4EC /* ViewController.m */; };
+		0005A36621697ADE0020F4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0005A36521697ADE0020F4EC /* Assets.xcassets */; };
+		0005A36921697ADE0020F4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0005A36721697ADE0020F4EC /* Main.storyboard */; };
+		0005A36C21697ADE0020F4EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005A36B21697ADE0020F4EC /* main.m */; };
+		0005A3762169AF340020F4EC /* MultitouchSupport in Frameworks */ = {isa = PBXBuildFile; fileRef = 0005A3752169AF340020F4EC /* MultitouchSupport */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0005A35C21697ADD0020F4EC /* app_shrinkTrackpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_shrinkTrackpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0005A35F21697ADD0020F4EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0005A36021697ADD0020F4EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0005A36221697ADD0020F4EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0005A36321697ADD0020F4EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0005A36521697ADE0020F4EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0005A36821697ADE0020F4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0005A36A21697ADE0020F4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0005A36B21697ADE0020F4EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0005A36D21697ADE0020F4EC /* app_shrinkTrackpad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app_shrinkTrackpad.entitlements; sourceTree = "<group>"; };
+		0005A3752169AF340020F4EC /* MultitouchSupport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MultitouchSupport; path = ../../../../System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport; sourceTree = "<group>"; };
+		00A93FFB216AD68E00E7EC87 /* MultitouchSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultitouchSupport.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0005A35921697ADD0020F4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0005A3762169AF340020F4EC /* MultitouchSupport in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0005A35321697ADD0020F4EC = {
+			isa = PBXGroup;
+			children = (
+				0005A35E21697ADD0020F4EC /* app_shrinkTrackpad */,
+				0005A35D21697ADD0020F4EC /* Products */,
+				0005A3742169AF340020F4EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0005A35D21697ADD0020F4EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0005A35C21697ADD0020F4EC /* app_shrinkTrackpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0005A35E21697ADD0020F4EC /* app_shrinkTrackpad */ = {
+			isa = PBXGroup;
+			children = (
+				0005A35F21697ADD0020F4EC /* AppDelegate.h */,
+				0005A36021697ADD0020F4EC /* AppDelegate.m */,
+				0005A36221697ADD0020F4EC /* ViewController.h */,
+				0005A36321697ADD0020F4EC /* ViewController.m */,
+				00A93FFB216AD68E00E7EC87 /* MultitouchSupport.h */,
+				0005A36521697ADE0020F4EC /* Assets.xcassets */,
+				0005A36721697ADE0020F4EC /* Main.storyboard */,
+				0005A36A21697ADE0020F4EC /* Info.plist */,
+				0005A36B21697ADE0020F4EC /* main.m */,
+				0005A36D21697ADE0020F4EC /* app_shrinkTrackpad.entitlements */,
+			);
+			path = app_shrinkTrackpad;
+			sourceTree = "<group>";
+		};
+		0005A3742169AF340020F4EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0005A3752169AF340020F4EC /* MultitouchSupport */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0005A35B21697ADD0020F4EC /* app_shrinkTrackpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0005A37021697ADE0020F4EC /* Build configuration list for PBXNativeTarget "app_shrinkTrackpad" */;
+			buildPhases = (
+				0005A35821697ADD0020F4EC /* Sources */,
+				0005A35921697ADD0020F4EC /* Frameworks */,
+				0005A35A21697ADD0020F4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = app_shrinkTrackpad;
+			productName = app_shrinkTrackpad;
+			productReference = 0005A35C21697ADD0020F4EC /* app_shrinkTrackpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0005A35421697ADD0020F4EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = aa;
+				TargetAttributes = {
+					0005A35B21697ADD0020F4EC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0005A35721697ADD0020F4EC /* Build configuration list for PBXProject "app_shrinkTrackpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0005A35321697ADD0020F4EC;
+			productRefGroup = 0005A35D21697ADD0020F4EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0005A35B21697ADD0020F4EC /* app_shrinkTrackpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0005A35A21697ADD0020F4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0005A36621697ADE0020F4EC /* Assets.xcassets in Resources */,
+				0005A36921697ADE0020F4EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0005A35821697ADD0020F4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0005A36421697ADD0020F4EC /* ViewController.m in Sources */,
+				0005A36C21697ADE0020F4EC /* main.m in Sources */,
+				0005A36121697ADD0020F4EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0005A36721697ADE0020F4EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0005A36821697ADE0020F4EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0005A36E21697ADE0020F4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0005A36F21697ADE0020F4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0005A37121697ADE0020F4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = app_shrinkTrackpad/app_shrinkTrackpad.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = app_shrinkTrackpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MultitouchSupport.framework/Versions/A",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahuke.shrinkTrackpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		0005A37221697ADE0020F4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = app_shrinkTrackpad/app_shrinkTrackpad.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = app_shrinkTrackpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MultitouchSupport.framework/Versions/A",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahuke.shrinkTrackpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0005A35721697ADD0020F4EC /* Build configuration list for PBXProject "app_shrinkTrackpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0005A36E21697ADE0020F4EC /* Debug */,
+				0005A36F21697ADE0020F4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0005A37021697ADE0020F4EC /* Build configuration list for PBXNativeTarget "app_shrinkTrackpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0005A37121697ADE0020F4EC /* Debug */,
+				0005A37221697ADE0020F4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0005A35421697ADD0020F4EC /* Project object */;
+}
