@@ -12,7 +12,7 @@
 		0005A36621697ADE0020F4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0005A36521697ADE0020F4EC /* Assets.xcassets */; };
 		0005A36921697ADE0020F4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0005A36721697ADE0020F4EC /* Main.storyboard */; };
 		0005A36C21697ADE0020F4EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005A36B21697ADE0020F4EC /* main.m */; };
-		0005A3762169AF340020F4EC /* MultitouchSupport in Frameworks */ = {isa = PBXBuildFile; fileRef = 0005A3752169AF340020F4EC /* MultitouchSupport */; };
+		003A02DF2175D71D0001439D /* MultitouchSupport in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A02DE2175D71D0001439D /* MultitouchSupport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +27,7 @@
 		0005A36B21697ADE0020F4EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0005A36D21697ADE0020F4EC /* app_shrinkTrackpad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app_shrinkTrackpad.entitlements; sourceTree = "<group>"; };
 		0005A3752169AF340020F4EC /* MultitouchSupport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MultitouchSupport; path = ../../../../System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport; sourceTree = "<group>"; };
+		003A02DE2175D71D0001439D /* MultitouchSupport */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = MultitouchSupport; path = ../../../../../System/Library/PrivateFrameworks/MultitouchSupport.framework/MultitouchSupport; sourceTree = "<group>"; };
 		00A93FFB216AD68E00E7EC87 /* MultitouchSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultitouchSupport.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0005A3762169AF340020F4EC /* MultitouchSupport in Frameworks */,
+				003A02DF2175D71D0001439D /* MultitouchSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +80,7 @@
 		0005A3742169AF340020F4EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				003A02DE2175D71D0001439D /* MultitouchSupport */,
 				0005A3752169AF340020F4EC /* MultitouchSupport */,
 			);
 			name = Frameworks;
@@ -298,6 +300,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MultitouchSupport.framework/Versions/A",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MultitouchSupport.framework",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahuke.shrinkTrackpad;
@@ -322,6 +325,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MultitouchSupport.framework/Versions/A",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/MultitouchSupport.framework",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahuke.shrinkTrackpad;
