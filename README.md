@@ -21,7 +21,7 @@ It's for safety, app has to run with root.
 
 Open Terminal and type
 ```
-sudo /Applications/Shrink Trackpad.app/Contents/MacOS/app_shrinkTrackpad
+sudo /Applications/Shrink\ Trackpad.app/Contents/MacOS/app_shrinkTrackpad
 ```
 Enter your login password in the terminal.   
 
